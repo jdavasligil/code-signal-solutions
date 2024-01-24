@@ -6,7 +6,7 @@
 # You are given an n x n 2D matrix that represents an image. Rotate the image
 # by 90 degrees (clockwise).
 
-# SOLUTION
+# SOLUTION [Time: O(n(n+1)/2) = O(n^2) Space: O(1)]
 # We notice that the image can be rotated by transposing the matrix and then
 # reversing each row.
 def solution(a):
